@@ -1,0 +1,43 @@
+:root { /*Raíz do documento*/
+    --wcolor: #f0f0f5;
+    --tittle-color: #322153;
+    --primary-color: #34cb79;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html { /*Isso é um seletor*/
+    font-family: Roboto, sans-serif;
+}
+body {
+    background: var(--wcolor); 
+    /*Formato rgb, red(ff), green(ff), blue(ff). ffffff*/
+    -webkit-font-smoothing: antialiased;
+}
+a {
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Ubuntu, sans-serif; 
+    color: var(--tittle-color)
+}
+/* 
+.redAtinge todos os elementos com o nome de classe contendo 'red'{
+   background-color: red; 
+}
+*/
+
+
+/* 
+                BOX MODEL
+Toda caixa tem largura, espaçamentos, preenchimentos, bordas, cor, fundo
+altura, alinhamenteos, posicionamentos e, claro, a maneira como é vista pelo html, o display.
+
+                Todos os elementos o html são como caixas para o css, cada um ocupando
+seu respectivo espaço. Existem diferentes tipos de caixas com
+diferentes tipos de ocupações. Temos inline, q é a tag <a>, com
+ocupamento "inline", ocupando apenas o necessário; temos <h3>, que
+tem como caixa "block", ocupando todo o espaço daquela linha e etc. 
+*/
