@@ -15,7 +15,7 @@ Página para criar um próprio ponto de coleta
 ![gifResults](https://user-images.githubusercontent.com/65914461/83946674-b3dbd000-a7e8-11ea-8f1f-3d84b1861ff3.gif)
 Filtra resultados com base na busca de cidades e estados
 
-#Minhas adições ➕
+# Minhas adições ➕
 * Opção de pesquisa por estado e cidade ✅
 * Inserção de e-mail para contanto na criação de ponto ✅
 * Uso do e-mail no banco de dados ❌(pendente)
