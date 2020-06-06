@@ -19,4 +19,4 @@ Filtra resultados com base na busca de cidades e estados
 * Opção de pesquisa por estado e cidade ✅
 * Inserção de e-mail para contanto na criação de ponto ✅
 * Uso do e-mail no banco de dados ❌(pendente)
-* Icone na aba do navegador ❌(pendente)
+* Icone na aba do navegador ✅
