@@ -1,5 +1,5 @@
 # ♻Ecoleta
-Este marketplace ajuda as pessoas a encontrarem pontos de coleta de resíduos para reciclagem.<br>
+Este marketplace ajuda as pessoas a encontrarem pontos de coleta de resíduos para reciclagem (<strong>AVISO:</strong> Não pus licensa propositalmente, pois não achei necessário).<br>
 # Tecnologias 👨‍💻
 * [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTM)
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
@@ -15,8 +15,10 @@ Página para criar um próprio ponto de coleta
 ![gifResults](https://user-images.githubusercontent.com/65914461/83946674-b3dbd000-a7e8-11ea-8f1f-3d84b1861ff3.gif)
 Filtra resultados com base na busca de cidades e estados
 
-#Minhas adições ➕
+# Minhas adições ➕
+<strong>✅= Feitos ❌= Pendentes </strong>
 * Opção de pesquisa por estado e cidade ✅
-* Inserção de e-mail para contanto na criação de ponto ✅
-* Uso do e-mail no banco de dados ❌(pendente)
-* Icone na aba do navegador ❌(pendente)
+* Inserção de e-mail/número para contanto na criação de ponto ✅
+* Uso do contato no banco de dados ❌
+* Icone na aba do navegador ✅
+* Modo dark ❌

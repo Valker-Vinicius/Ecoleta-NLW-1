@@ -1,26 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt_br">
-<!--
-    SACADA DO HTML (Hypertext Markup Language)
-
-    HyperText
-        Hiper Texto, são como links q vão de um documento ao outro.
-    
-    Markup
-        Marcação de texto
-    
-    Language
-        Linguagem
-    
-    DESTA FORMA, PODEMOS DIZER Q O HTML É UMA LINGUAGEM DE MARCAÇÃO
-    DE HIPERTEXTTOS.
--->
 <head>
-    <meta charset="UTF-8"> <!--Controla os metadados do site, nesse
-                            caso quer dizer que aceita acentuações especiais
-                            Ex: ç, ~, ^ etc.-->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!--Essa é p q o site caiba em diversos tamanhos.-->
     {% block title %}
         <title>Ecoleta</title>
     {% endblock title %}
@@ -32,8 +14,7 @@
     <link rel="shortcut icon" href="/assets/shortcut.png">
 </head>
 
-<body> <!--Da mesma forma q isto pode ser chamado de "tag", tb pode
-            ser um "elemento"-->
+<body> 
         <div id="{{pageId}}">
             {% block content %}
             {% endblock content %}
