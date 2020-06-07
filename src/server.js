@@ -7,7 +7,7 @@ const server = express()
 // pega banco de dados
 const db = require("./database/db.js")
 
-//configura pasta publica, este comando use server para fazer configurções no servidor
+//configura pasta publica, este comando server.use é para fazer configurções no servidor
 server.use(express.static("public"))
 
 //habilita o uso do req.body
@@ -22,8 +22,8 @@ nunjucks.configure("src/views", {
 
 // configura caminhos da minha aplicação
 // página inicial
-//req: Requisição
-//res: Resposta
+// req: Requisição
+// res: Resposta
 server.get("/", function(req, res) {
     return res.render("index.html", {tittle: "Um título"})
 })
@@ -39,15 +39,16 @@ server.post("/savepoint", (req, res) => {
 
     // inserir dados no banco de dados
     const query = `
-        INSERT INTO places (
+        INSERT INTO placess (
             image,
             name,
             address,
             address2,
             state,
             city,
-            items
-        ) VALUES (?, ?, ?, ?, ?, ?, ?);
+            items,
+            contact
+        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
     `
     const values = [
         req.body.image,
@@ -56,7 +57,8 @@ server.post("/savepoint", (req, res) => {
         req.body.address2,
         req.body.state,
         req.body.city,
-        req.body.items
+        req.body.items,
+        req.body.contact
     ]
     function afterInsertData(err) {
         if(err) {
@@ -78,13 +80,13 @@ server.get("/search-results", function(req, res) {
     }
     
     //pega bancao de dados
-    db.all(`SELECT * FROM places WHERE state LIKE '%${searchUf}%' AND city LIKE '%${searchCity}%'`, function(err, rows) {
+    db.all(`SELECT * FROM placess WHERE state LIKE '%${searchUf}%' AND city LIKE '%${searchCity}%'`, function(err, rows) {
         if(err) {
             return console.log(err)   
         }
         const total = rows.length
         // mostrar página com os dados do banco de dados
-        return res.render("search-results.html", {places: rows, total: total})
+        return res.render("search-results.html", {placess: rows, total: total})
     })
     
 })
