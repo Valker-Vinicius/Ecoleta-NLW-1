@@ -18,7 +18,7 @@ Filtra resultados com base na busca de cidades e estados
 # Minhas adições ➕
 <strong>✅= Feitos ❌= Pendentes </strong>
 * Opção de pesquisa por estado e cidade ✅
-* Inserção de e-mail para contanto na criação de ponto ✅
-* Uso do e-mail no banco de dados ❌
+* Inserção de e-mail/número para contanto na criação de ponto ✅
+* Uso do contato no banco de dados ❌
 * Icone na aba do navegador ✅
 * Modo dark ❌
