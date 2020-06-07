@@ -1,5 +1,5 @@
 # ♻Ecoleta
-Este marketplace ajuda as pessoas a encontrarem pontos de coleta de resíduos para reciclagem.<br>
+Este marketplace ajuda as pessoas a encontrarem pontos de coleta de resíduos para reciclagem (<strong>AVISO:</strong> Não pus licensa propositalmente, pois não achei necessário).<br>
 # Tecnologias 👨‍💻
 * [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTM)
 * [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
