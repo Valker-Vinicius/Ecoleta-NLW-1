@@ -11,18 +11,42 @@
 html { /*Isso é um seletor*/
     font-family: Roboto, sans-serif;
 }
+
 body {
-    background: var(--wcolor); 
+    background: #f0f0f5; 
     /*Formato rgb, red(ff), green(ff), blue(ff). ffffff*/
     -webkit-font-smoothing: antialiased;
 }
 a {
     text-decoration: none;
 }
+li#dark-mode {
+    font-family: Roboto, sans-serif;
+    display: flex;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 1200px;
+    margin-top: 5px;
+}
+li#dark-mode img {
+    width: 20px;
+    height: 20px;
+}
+body.dmode h1, 
+body.dmode h2, 
+body.dmode h3,
+body.dmode h4,
+body.dmode h5, 
+body.dmode h6,
+body.dmode a,
+body.dmode span{
+    color: rgb(187, 22, 187)
+}
 h1, h2, h3, h4, h5, h6 {
     font-family: Ubuntu, sans-serif; 
     color: var(--tittle-color)
 }
+
 /* 
 .redAtinge todos os elementos com o nome de classe contendo 'red'{
    background-color: red; 

@@ -9,18 +9,26 @@
     justify-content: space-between;
     align-items: center;
 }
+body.dmode #page-create-point header a {
+    color: rgb(187, 22, 187)
+}
 #page-create-point header a {
     color: var(--tittle-color);
     font-weight: bold;
     display: flex;
     align-items: center;
 }
+
 #page-create-point header a span {
     margin-right: 16px;
     background-image: url('../assets/arrow-left.svg');
     width: 20px;
     height: 24px;
     display: flex;
+}
+body.dmode form {
+    background: rgb(82, 82, 82);
+    color: white;
 }
 form {
     background-color: white;

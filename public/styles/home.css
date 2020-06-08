@@ -11,6 +11,7 @@
     max-width: 1100px;
     height: 100%;
     margin: auto;
+    margin-top: -40px;
     display: flex;
     flex-direction: column;
     /*Em margin: 20px 30px 40px 50px  20 é top (cima)
@@ -26,6 +27,9 @@
     display: flex;
     color: var(--tittle-color);
     font-weight: 700;
+}
+body.dmode #page-home a {
+    color: rgb(165, 27, 165);
 }
 #page-home header a span {
     margin-right: 16px;
