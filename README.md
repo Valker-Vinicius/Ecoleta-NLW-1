@@ -19,6 +19,6 @@ Filtra resultados com base na busca de cidades e estados
 <strong>✅= Feitos ❌= Pendentes </strong>
 * Opção de pesquisa por estado e cidade ✅
 * Inserção de e-mail/número para contanto na criação de ponto ✅
-* Uso do contato no banco de dados ❌
+* Uso do contato no banco de dados ✅
 * Icone na aba do navegador ✅
 * Modo dark ❌
