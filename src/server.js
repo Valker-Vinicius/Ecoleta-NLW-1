@@ -27,10 +27,10 @@ nunjucks.configure("src/views", {
 server.get("/", function(req, res) {
     return res.render("index.html", {tittle: "Um título"})
 })
+
 server.get("/create-point", function(req, res) {
     // pega as Query Strings da nossa url
     console.log(req.query)
-    
     return res.render("create-point.html")
 })
 // com o verbo post as query strigns não aparecem na url

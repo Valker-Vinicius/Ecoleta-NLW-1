@@ -13,7 +13,7 @@ html { /*Isso é um seletor*/
 }
 
 body {
-    background: #f0f0f5; 
+    background: var(--wcolor); 
     /*Formato rgb, red(ff), green(ff), blue(ff). ffffff*/
     -webkit-font-smoothing: antialiased;
 }

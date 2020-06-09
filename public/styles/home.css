@@ -38,6 +38,9 @@ body.dmode #page-home a {
     width: 20px;
     height: 20px;
 }
+#page-home li#dark-mode {
+    margin-left: 1300px;
+}
 #page-home main {
     max-width: 560px;
     flex: 1;
