@@ -1,6 +1,7 @@
-const sqlite3 = require("sqlite3").verbose() // importa  dependencia do sqlite3, verbose diz ao sqlite3 para dar mensagens o terminal
+// importa  dependencia do sqlite3
+const sqlite3 = require("sqlite3").verbose()  // verbose diz ao sqlite3 para dar mensagens o terminal
 
-//criar objeto que irá fazer operações no banco de dados
+//cria objeto que irá fazer operações no banco de dados
 
 const db = new sqlite3.Database("./src/database/database.db") // cria o objeto neste constructor que vai fazer um banco de dados neste caminho
 

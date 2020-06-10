@@ -6,7 +6,7 @@ function populateUFs() {
         for (state of states) {
             ufselect.innerHTML += `<option value='${state.id}'>${state.nome}</option>`
         }
-    } )
+    })
 }
 populateUFs()
 function getCities(event) {
@@ -54,7 +54,9 @@ function handleSelectedItem(event) {
         //Vai filtrar os itens
         const filteredItems = selectedItems.filter(function(item) {
             const itemIsDifferent = item != itemId
-            //Vai receber valores true e false, filtrando e retornando eles
+            // Vai receber valores true e false, filtrando e retornando eles
+            // vai comparar item por item aqueles do array selectedItems
+            // Se algum desses itens for diferente, ele retorna o valor true, que graças ao filter lá abaixo serão os valores não selecionados
             return itemIsDifferent
         })
         selectedItems = filteredItems

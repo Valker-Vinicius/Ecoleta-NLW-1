@@ -25,7 +25,7 @@ nunjucks.configure("src/views", {
 // req: Requisição
 // res: Resposta
 server.get("/", function(req, res) {
-    return res.render("index.html", {tittle: "Um título"})
+    return res.render("index.html", {title: "Um título"})
 })
 
 server.get("/create-point", function(req, res) {
@@ -79,7 +79,7 @@ server.get("/search-results", function(req, res) {
         return res.render("search-results.html", {total: 0})
     }
     
-    //pega bancao de dados
+    //pega banco de dados
     db.all(`SELECT * FROM placess WHERE state LIKE '%${searchUf}%' AND city LIKE '%${searchCity}%'`, function(err, rows) {
         if(err) {
             return console.log(err)   

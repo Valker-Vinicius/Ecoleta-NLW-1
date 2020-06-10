@@ -21,7 +21,6 @@ a {
     text-decoration: none;
 }
 li#dark-mode {
-    font-family: Roboto, sans-serif;
     display: flex;
     text-align: center;
     cursor: pointer;
